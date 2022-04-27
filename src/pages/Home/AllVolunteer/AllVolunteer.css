@@ -1,0 +1,16 @@
+.card {
+    position: relative;
+}
+
+.card h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #FFBD3E; */
+    border-radius: 0px 0px 10px 10px;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    color: #fff;
+}
