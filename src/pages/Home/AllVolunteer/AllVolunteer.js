@@ -10,9 +10,6 @@ const AllVolunteer = ({ volunteer, color }) => {
         <div className='card'>
             <img src={img} alt="" />
             <h4 style={{ backgroundColor: color }}>{title}</h4>
-            {/* {
-                random.map(item => <h4 style={{ backgroundColor: item }}>{title}</h4>)
-            } */}
 
         </div>
     );

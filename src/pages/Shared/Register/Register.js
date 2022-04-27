@@ -1,8 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Register = () => {
-    const naviate = useNavigate()
+
+
     return (
         <div className='login-from'>
 
@@ -14,7 +15,7 @@ const Register = () => {
                 <input type="button" value="Login" />
                 <div className='user'>
                     <p>Already Account?</p>
-                    <p onClick={'navigate'}>Login</p>
+                    <Link to='/login'><p>Login</p></Link>
                 </div>
             </form>
         </div>

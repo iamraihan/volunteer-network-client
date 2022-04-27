@@ -21,7 +21,7 @@ const Home = () => {
                 <input type="text" />
                 <button>Search</button>
             </div>
-            <div className='all-volunteer'>
+            <div className='volunteer-container'>
                 {
                     volunteers.map(volunteer => <AllVolunteer color={colors[colorIndex === colors.length - 1 ? colorIndex = 0 : colorIndex++]} key={volunteer._id} volunteer={volunteer}></AllVolunteer>)
                 }
