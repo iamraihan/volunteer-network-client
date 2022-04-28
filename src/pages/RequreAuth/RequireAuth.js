@@ -8,7 +8,7 @@ const RequireAuth = ({ children }) => {
     const [user, loading, error] = useAuthState(auth);
 
     if (loading) {
-        <p>Loading</p>
+        return <p>Loading</p>
     }
     if (!user) {
         // Redirect them to the /login page, but save the current location they were

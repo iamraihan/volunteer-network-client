@@ -13,7 +13,7 @@ const Home = () => {
         fetch('http://localhost:5000/volunteer')
             .then(res => res.json())
             .then(data => setVolunteers(data))
-    }, [])
+    }, [volunteers])
     return (
         <main className='container'>
             <h1>I grow by helping people in need.</h1>
